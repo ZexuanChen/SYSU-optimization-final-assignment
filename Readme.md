@@ -36,12 +36,12 @@ adjust_lamda(A, b, lamdas, 'admm')
 
 邻近点梯度法：
 
-![00d1231d20e2adebb67417531bf1501](.\images\1.png)
+![00d1231d20e2adebb67417531bf1501](./images/1.png)
 
 交替方向乘子法：
 
-![86c760a660ea6b37eb87ced43a87267](.\images\2.png)
+![86c760a660ea6b37eb87ced43a87267](./images/2.png)
 
 次梯度法：
 
-![fd3baca369ca9333278e1a71a364398](.\images\3.png)
+![fd3baca369ca9333278e1a71a364398](./images/3.png)

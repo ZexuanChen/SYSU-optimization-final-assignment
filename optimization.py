@@ -218,7 +218,7 @@ b = np.array([A[i].dot(x_true) + np.random.normal(0, 0.1, d1) for i in range(num
 
 # 三种算法求解
 x_opt1 = proximal_gradient_method(A, b, lamda)[0]
-x_opt2 = admm(A, b, lamda, if_draw=False)[0]
+x_opt2 = admm(A, b, lamda)[0]
 x_opt3 = subgradient(A, b, lamda)[0]
 
 # 调整正则化参数
